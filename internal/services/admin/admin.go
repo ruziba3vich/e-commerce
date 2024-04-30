@@ -52,3 +52,5 @@ func (a Admin) UpdateProduct(p services.Product, db *sql.DB) (services.Product, 
 	updatedProduct.Id = p.Id
 	return updatedProduct, nil
 }
+
+func GetAllUsersByMonth()
